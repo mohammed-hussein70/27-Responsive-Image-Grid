@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex: 10px;
+  justify-content: center;
+}
+
+.row img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+@media (max-width: 900px) {
+  .row {
+    display: block;
+    justify-content: center;
+  }
+
+  .row img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+}
+@media (max-width: 400px) {
+  .row {
+    display: block;
+    justify-content: center;
+  }
+
+  .row img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+}
